@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btnClearSearch: document.getElementById('btn-clear-search'),
         loadingState: document.getElementById('loading-state'),
         errorState: document.getElementById('error-state'),
+        errorMessage: document.getElementById('error-message'),
         emptyState: document.getElementById('empty-state'),
         timelineContainer: document.getElementById('timeline-container'),
         notesList: document.getElementById('notes-list'),
